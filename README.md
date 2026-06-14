@@ -32,7 +32,8 @@ Predicted label is displayed on screen in real time
 
 Project Structure
 
-sign-language-detection/
+sign-language-detection/ 
+
 │
 ├── DataCollection.py     # Collect training images via webcam (press 's' to save)
 ├── test.py               # Run real-time detection via webcam (press 'q' to quit)
