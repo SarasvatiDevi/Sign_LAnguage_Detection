@@ -75,9 +75,13 @@ Model
 
 
 Framework: TensorFlow / Keras
+
 Input size: 224 × 224 × 3 (RGB)
+
 Classifier: cvzone ClassificationModule wrapping keras_model.h5
+
 Output: Softmax over 20 classes
+
 Test Accuracy: [ADD YOUR ACCURACY — e.g. 92%]
 
 
@@ -85,7 +89,9 @@ Test Accuracy: [ADD YOUR ACCURACY — e.g. 92%]
 Installation & Setup
 
 bashgit clone https://github.com/SarasvatiDevi/Sign_LAnguage_Detection
+
 cd Sign_LAnguage_Detection
+
 pip install opencv-python cvzone tensorflow numpy
 
 To collect new training data:
@@ -117,8 +123,11 @@ Limitations
 
 
 Trained on single-subject data — accuracy may vary across different hand sizes, skin tones, and lighting conditions
+
 Indoor/controlled lighting only
+
 One hand detected at a time (maxHands=1)
+
 No mobile or web deployment yet
 
 
@@ -127,8 +136,11 @@ Future Work
 
 
 Expand dataset to multiple subjects for better generalization
+
 Add Pakistani Sign Language (PSL) specific gestures
+
 Deploy as a web application using Flask or Streamlit
+
 Extend to full sentence/phrase detection
 
 
