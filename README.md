@@ -36,14 +36,23 @@ sign-language-detection/
 
 │
 ├── DataCollection.py     # Collect training images via webcam (press 's' to save)
+
 ├── test.py               # Run real-time detection via webcam (press 'q' to quit)
+
 ├── Data/                 # Collected images organized by class label
+
 │   ├── Hello/
+
 │   ├── Yes/
+
 │   └── ...
+
 ├── Model/
+
 │   ├── keras_model.h5    # Trained Keras model
+
 │   └── labels.txt        # Class labels
+
 └── README.md
 
 
@@ -51,9 +60,13 @@ Dataset
 
 
 Collected by: Self-collected via webcam using DataCollection.py
+
 Classes: 20 sign language gestures
+
 Images per class: [ADD YOUR NUMBER — e.g. 300]
+
 Total images: [ADD TOTAL — e.g. 6,000]
+
 Preprocessing: Hand region cropped and padded to 224×224 on white background
 
 
