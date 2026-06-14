@@ -5,11 +5,12 @@ A real-time hand gesture recognition system that detects 20 sign language gestur
 
 
 Demo
-
-
 📸  record some picture while running test.py
+
 <img width="571" height="591" alt="image" src="https://github.com/user-attachments/assets/078bc852-d13a-4bfa-b82d-331df398ea64" />
+
 <img width="601" height="484" alt="image" src="https://github.com/user-attachments/assets/ac58f6c1-38c3-4a67-ad8e-5f6c48ac7f84" />
+
 <img width="647" height="417" alt="image" src="https://github.com/user-attachments/assets/5214d533-0abd-4453-a0d8-3dd89e3cd6a3" />
 
 
@@ -123,5 +124,3 @@ Author
 Sarasvati Devi
 
 BS Artificial Intelligence — Aror University, Sukkur, Pakistan
-
-LinkedIn · GitHub
